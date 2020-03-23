@@ -8,7 +8,7 @@ from .models import Greeting
 
 # Create your views here.
 def index(request):
-    return Response(content, status=status.HTTP_404_NOT_FOUND)
+    return Response(content, status=status.HTTP_202_ACCEPTED)
 
 
 def db(request):
