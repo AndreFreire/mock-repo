@@ -5,6 +5,7 @@ from django.http import HttpResponse
 from .models import Greeting
 
 # Create your views here.
+@csrf_exempt
 def index(request):
     return HttpResponse(status=204)
 
