@@ -7,7 +7,7 @@ from .models import Greeting
 # Create your views here.
 @csrf_exempt
 def index(request):
-    return HttpResponse(status=204)
+    return HttpResponse(status=403)
 
 
 def db(request):
