@@ -9,7 +9,7 @@ from .models import Greeting
 @csrf_exempt
 def index(request):
     #sleep(1000000000000)
-    return HttpResponse(status=500)
+    return HttpResponse(status=204)
 
 
 def db(request):
