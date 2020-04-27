@@ -8,8 +8,8 @@ from .models import Greeting
 # Create your views here.
 @csrf_exempt
 def index(request):
-    # sleep(1000000000000)
-    return HttpResponse(status=500)
+    sleep(1000000000000)
+    # return HttpResponse(status=500)
 
 
 def db(request):
