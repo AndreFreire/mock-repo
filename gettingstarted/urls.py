@@ -23,4 +23,6 @@ urlpatterns = [
     path('scheduling', hello.views.index, name="index"),
     path('prescription', hello.views.index, name="index"),
     path('prescriptionStatus', hello.views.index, name="index"),
+    path('locations', hello.views.index, name="index"),
+    path('/exam/v1/agendamento/unidades', hello.views.index, name="index"),
 ]
